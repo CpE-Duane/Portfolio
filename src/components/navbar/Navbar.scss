@@ -1,0 +1,27 @@
+.navbar-top {
+    border-bottom: 5px solid #04c2c9;
+    z-index: 1;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-top a {
+    color: #fff;
+    font-size: 19px;
+    transition: transform 0.3s;
+    font-weight: 500;
+}
+
+.navbar-top a:hover {
+    color: #04c2c9;
+    transform: scale(1.1);
+}
+
+.navbar-top button {
+    background-color: #04c2c9;
+}
+
+.active {
+    color: #04c2c9 !important;
+}

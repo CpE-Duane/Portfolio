@@ -1,0 +1,89 @@
+.projects {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+
+.projects img {
+    height: 250px;
+}
+
+
+.options button {
+    font-weight: 600;
+    transition: all 1s;
+}
+
+
+.active-option {
+    background-color: #04c2c9 !important;
+    color: #fff !important;
+}
+
+.project {
+    position: relative;
+}
+
+.overlay {
+    display: none;
+    height: 0;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.5s;
+}
+
+.overlay button {
+    background-color:  #e31b6d;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    display: none;
+}
+
+.project:hover .overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project:hover .overlay button{
+    display: block;
+}
+
+.overlay button:hover{
+    background-color:  #e31b6d;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .project {
+        text-align: center;
+    }
+    .projects img {
+        height: 300px;
+        width: 100% !important;  
+    }
+}
+@media screen and (min-width: 768px) {
+
+    .project {
+        text-align: center;
+    }
+    .projects img {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .projects img {
+        height: 180px;
+    }
+}

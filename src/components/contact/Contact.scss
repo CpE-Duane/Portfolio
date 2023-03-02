@@ -1,0 +1,36 @@
+.contact {
+    margin-top: 30px;
+    min-height: 70vh;
+    padding-top: 30px;
+    background-color: #1b242f;
+}
+
+.sayHi {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 50px;
+    transition: background-color 0.5s;
+}
+
+.sayHi:hover {
+    background-color: #04c2c9;
+    border: none;
+}
+
+.social-media {
+    margin-top: 100px;
+}
+
+.social-media img {
+    height: 50px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.duane {
+    margin-top: 100px;
+    text-align: center;
+    color: gray;
+}
